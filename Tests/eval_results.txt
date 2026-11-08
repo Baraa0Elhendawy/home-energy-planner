@@ -1,0 +1,14 @@
+=== EXPERIMENT 1: UCS vs A* (Sample Mean ± Std. Dev, ddof=1) ===
+UCS Nodes: 63906.4 ± 7514.7
+A* Nodes:  44531.2 ± 2172.3
+UCS Time (s): 0.528 ± 0.070
+A* Time (s):  0.535 ± 0.041
+
+=== EXPERIMENT 2: CSP BACKTRACKS (Mean ± Std. Dev, ddof=1) ===
+Appliances: 03 | BT:     0.0±    0.0 | FC:   0.0±  0.0 | AC3:   0.0±  0.0
+Appliances: 05 | BT:  6372.0±    0.0 | FC:  24.0±  0.0 | AC3:   0.0±  0.0
+Appliances: 08 | BT:  6372.0±    0.0 | FC:  24.0±  0.0 | AC3:   0.0±  0.0
+
+=== EXPERIMENT 3: FINANCIAL ROUTING (NN vs BASELINE) ===
+NN Total Cost: $153.66 | Limit Violations: 1
+Baseline Cost: $162.72 | Limit Violations: 0
