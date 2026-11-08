@@ -1,0 +1,68 @@
+{
+    "battery": {
+        "capacity_kwh": 5.0,
+        "max_rate_kw": 2.5,
+        "efficiency": 0.95
+    },
+    "power_limit_kw": 6.0,
+    "appliances": {
+        "washer": {
+            "duration_h": 1,
+            "load_kw": 1.2,
+            "prereq": null,
+            "shared_circuit": null
+        },
+        "dryer": {
+            "duration_h": 1,
+            "load_kw": 2.5,
+            "prereq": "washer",
+            "shared_circuit": null
+        },
+        "dishwasher": {
+            "duration_h": 1,
+            "load_kw": 1.5,
+            "prereq": null,
+            "shared_circuit": null
+        },
+        "ev_charger": {
+            "duration_h": 3,
+            "load_kw": 3.5,
+            "prereq": null,
+            "shared_circuit": "oven"
+        },
+        "oven": {
+            "duration_h": 1,
+            "load_kw": 2.2,
+            "prereq": null,
+            "shared_circuit": "ev_charger"
+        }
+    },
+    "prices": {
+        "hourly": [
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.1,
+            0.1,
+            0.1
+        ]
+    }
+}
